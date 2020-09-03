@@ -16,6 +16,7 @@ import service.UserService;
 @Controller
 public class LoginController {
 
+	@Autowired
 	User user;
 
 	@Autowired
